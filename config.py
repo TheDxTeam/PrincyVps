@@ -7,9 +7,9 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = int(getenv("API_ID", 23578147))
-API_HASH = getenv("API_HASH","8fadea5f7c8742406b1b1e25fb97a1a4")
-BOT_TOKEN = getenv("BOT_TOKEN","6341777841:AAH87VXiIrai7NkKPs5w8BPd53jHWcafU3Q")
+API_ID = int(getenv("API_ID", 23201258))
+API_HASH = getenv("API_HASH","2dbcbc118e7ef89d48dafc23c3280cfa")
+BOT_TOKEN = getenv("BOT_TOKEN","6341777841:AAGcrY2XBhlP_Dh1psWYqhKasbn9rSjfDuk")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://PrincyMusicBot:Princy@cluster0.vhfri5f.mongodb.net/?retryWrites=true&w=majority")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1080))
 LOGGER_ID = int(getenv("LOGGER_ID", -1001853824665))
@@ -33,7 +33,7 @@ PROMO = getenv("PROMO","https://graph.org/file/7ecd7f937fe61a540c8a7.jpg")
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
-STRING1 = getenv("STRING_SESSION", "BQFnxiMADgKiXJWtzNQSGb5ufmhDpBYYiBCj4WC3B6kIcz1xPc-qQEtWSoPLe_OluLX2Uy_9iFzzjxBHnSdkKvs0goKw7H2PoAM4fJb1ZsVfYty6u3bwIv86Syz99NyvfyTxEBzjbZQgBvsQEMsaArrr56q6Q-B3ZAOSa124sD-grIyRkrL31uC4frJ7DQ_sw9KckrpVEBNN9Jl2epsdYrTKdU5pVi7RhkFs5Hh6ff5QrGISoGyTVBhXvSlD78EBnhAIGVM5ola918XzhTjpyhADteBLcZQKDKQ-C2G2gbcyw300qKtWGstNnA25i660zgM3vHdxBFm8zmIMsAlt-2h98zdqRwAAAAFazuudAA")
+STRING1 = getenv("STRING_SESSION", "BQFiBeoAeadSoEaNUGFbKvs3JHTTKQvCxlTCV-289QrpqCy_6hawyJb2aYyOMCOsqhX470QhoOSPQIixd5bw4ZbduoNazpYwkEixaKh3KdcE6ikrq25Nb1w8jw2aiFylY431iBgAX6ydCe_sjvsz_b04InDooyxE5DnVnTQ4xtCpg4ussOpCt6hr3o6rCZ9839VfZPWqjT29g8tlm6BJFKJ8w39q1HGfJyqU90aJOFB7wR_kPcuuGA8xIekV48GjNdDoMBzfSsGrE1KZpDKe3W8airE4S76AOb0KXm45uR2fsHAS5JTaIfkAadzZijPItB_k6UUw5rXkdJFsiLdWJ-tS371K4gAAAAFaEHADAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
